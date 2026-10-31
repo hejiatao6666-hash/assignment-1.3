@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Arithmetic Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="calculator">
+    <h1>Basic Arithmetic Calculator</h1>
+    <p>Enter two numbers, then choose an operation.</p>
+
+    <label for="first-number">First number</label>
+    <input id="first-number" type="text" inputmode="decimal">
+
+    <label for="second-number">Second number</label>
+    <input id="second-number" type="text" inputmode="decimal">
+
+    <div class="operations">
+      <button type="button" data-operation="add">Add (+)</button>
+      <button type="button" data-operation="subtract">Subtract (−)</button>
+      <button type="button" data-operation="multiply">Multiply (×)</button>
+      <button type="button" data-operation="divide">Divide (÷)</button>
+    </div>
+
+    <p id="result" class="result" role="status">Result: —</p>
+  </main>
+</body>
+</html>
